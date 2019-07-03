@@ -23,6 +23,10 @@ Club Admin : can create/edit/delete Team, Player Group and Players
 ## Installation
 
 ##Mac Os, Ubuntu and windows users continue here:
+
+      Download repository follow below steps :
+      Setup .env file with your MySQL connection details
+
 - Create a database locally named `test` utf8_general_ci 
 - Download composer https://getcomposer.org/download/
 - Pull Laravel/php project from git provider.
@@ -32,7 +36,12 @@ Club Admin : can create/edit/delete Team, Player Group and Players
 - Run `composer install` or ```php composer.phar install```
 - Run `php artisan key:generate` 
 - Run `php artisan migrate`
+      It will create tablei in your database which you mentioned in .env file with default admin user
+      admin@admin.com and password : 123456
 - Run `php artisan serve`
+      This return project URL : http://localhost:8000
+      Open in your browser
+
 
 #####You can now access your project at localhost:8000 :)
 
