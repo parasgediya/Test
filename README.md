@@ -5,6 +5,22 @@ There are two different role Super admin and Club admin.
 Super Admin : can create/edit/delete new club and users and also create new super admin
 Club Admin : can create/edit/delete Team, Player Group and Players
 
+## Userd Libraries
+ - laravel-medialibrary - v7
+       You'll find the documentation on [https://docs.spatie.be/laravel-medialibrary/v7](https://docs.spatie.be/laravel-medialibrary/v7).
+
+ - laravel-activitylog - v3
+       You'll find the documentation on [https://docs.spatie.be/laravel-activitylog/v3](https://docs.spatie.be/laravel-activitylog/v3).
+
+ - laravel-impersonate
+        Laravel Impersonate makes it easy to authenticate as your users. Add a simple trait to your user model and impersonate as one of your users in one click.
+
+ ## Requirements
+
+- Laravel >= 5.8
+- PHP >= 7.1
+- 
+
 ## Installation
 
 ##Mac Os, Ubuntu and windows users continue here:
