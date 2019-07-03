@@ -7,13 +7,13 @@ Club Admin : can create/edit/delete Team, Player Group and Players
 
 ## Userd Libraries
  - laravel-medialibrary - v7
-      - You'll find the documentation on [https://docs.spatie.be/laravel-medialibrary/v7](https://docs.spatie.be/laravel-medialibrary/v7).
+      * You'll find the documentation on [https://docs.spatie.be/laravel-medialibrary/v7](https://docs.spatie.be/laravel-medialibrary/v7).
 
  - laravel-activitylog - v3
-      - You'll find the documentation on [https://docs.spatie.be/laravel-activitylog/v3](https://docs.spatie.be/laravel-activitylog/v3).
+      * You'll find the documentation on [https://docs.spatie.be/laravel-activitylog/v3](https://docs.spatie.be/laravel-activitylog/v3).
 
  - laravel-impersonate
-       - Laravel Impersonate makes it easy to authenticate as your users. Add a simple trait to your user model and impersonate as one of your users in one click.
+       * Laravel Impersonate makes it easy to authenticate as your users. Add a simple trait to your user model and impersonate as one of your users in one click.
 
  ## Requirements
 
