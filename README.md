@@ -17,7 +17,6 @@ Club Admin : can create/edit/delete Team, Player Group and Players
 - Run `composer install` or ```php composer.phar install```
 - Run `php artisan key:generate` 
 - Run `php artisan migrate`
-- Run `php artisan db:seed` to run seeders, if any.
 - Run `php artisan serve`
 
 #####You can now access your project at localhost:8000 :)
