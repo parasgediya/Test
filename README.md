@@ -5,9 +5,10 @@ There are two different role Super admin and Club admin.
 Super Admin : can create/edit/delete new club and users and also create new super admin
 Club Admin : can create/edit/delete Team, Player Group and Players
 
+## Installation
 
 ##Mac Os, Ubuntu and windows users continue here:
-- Create a database locally named `homestead` utf8_general_ci 
+- Create a database locally named `test` utf8_general_ci 
 - Download composer https://getcomposer.org/download/
 - Pull Laravel/php project from git provider.
 - Rename `.env.example` file to `.env`inside your project root and fill the database information.
