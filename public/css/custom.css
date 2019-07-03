@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 11:12:12 AM
+    Author     : chirag Janjmera
+*/
+
+.error{
+    color:red !important;
+}
+
+.disabledTab{
+   /* pointer-events: none;*/
+    cursor:not-allowed;
+}
+
+.accomodate-labels{
+    padding: 5px; 
+}
+
+li.amenities {
+   min-width: 200px;
+    min-height: 53px;
+}
+span.sp-accommodates{
+    float: right;
+    margin-right: 60px;
+    }
+   .animities-all{
+     padding: 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    }    
+    
+    .table-openhour>tbody>tr>td{
+        border: none !important;
+    }    
+ .box8 .icon,
+    .box8 .title {
+        margin: -12px;
+        position: absolute;
+    }
+
+    .box8 {
+        box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+        position: relative;
+        margin: 10px 0px;
+    }
+
+    .box8 img {
+        width: 100%;
+        height: auto
+    }
+
+    .box8 .box-content {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .6);
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: perspective(400px) rotateX(-90deg);
+        transform-origin: center top 0;
+        transition: all .5s ease 0s
+    }
+
+    .box8 .icon li a,
+    .box8 .title {
+        background: #ef4050;
+        font-size: 20px;
+        color: #fff
+    }
+
+    .box8:hover .box-content {
+        opacity: 1;
+        transform: perspective(400px) rotateX(0)
+    }
+
+    .box8 .title {
+        padding: 5px 7px;
+        border-radius: 5px;
+        font-weight: 600;
+        bottom: 20px;
+        left: 20px;
+        transition: all .9s ease 0s
+    }
+
+    .box8 .icon li a,
+    .box9 .box-content,
+    .box9 .icon li,
+    .box9 img {
+        transition: all .35s ease 0s
+    }
+
+    .box8:hover .title {
+        bottom: -40px
+    }
+
+    .box8 .icon {
+        list-style: none;
+        padding: 0;
+        top: 40%;
+        left: 70px;
+        right: 0
+    }
+
+    .box8 .icon li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        margin-right: 7px
+    }
+
+    .box9 .icon,
+    .box9 .title {
+        width: 100%;
+        font-size: 22px
+    }
+
+    .box8 .icon li a:hover {
+        background: #fff;
+        color: #000
+    }
+
+    .box8 .icon li,
+    .box8 .title {
+        display: inline-block;
+    }
+
+    @media only screen and (max-width:990px) {
+        .box8 {
+            margin-bottom: 20px
+        }
+    }
+
+    
+    
+    [type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+       color: white;
+    background-color: black;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #248775f7;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
